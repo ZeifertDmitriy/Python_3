@@ -14,5 +14,5 @@ def fib(number):
         fib_result.insert(0, ((- 1) ** (i + 1)) * fib_2)
     return fib_result
 
-number = 9 #int(input('Введите десятичное число: '))
+number = 9
 print(fib(number))
